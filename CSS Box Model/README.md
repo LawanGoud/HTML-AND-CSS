@@ -58,3 +58,33 @@ The CSS `background-size` property specifies the size of the background image of
 
 <b>Note</b>
 Aspect Ratio is the ratio of the width and height (width/height) of an image.
+
+# Viewport
+
+The browser's viewport is the area of the window in which web content can be seen.
+
+## Viewport Height
+
+The CSS Viewport Height `vh` Unit equals to 1% of the height of the Viewport (browser window size).
+
+```CSS
+.card {
+  height: 50vh;
+}
+```
+
+<b>Note</b>
+The height `100vh` sets an HTML element to the entire height of the Viewport (browser window size).
+
+## Viewport Width
+
+The CSS Viewport Width `vw` Unit equals to 1% of the width of the Viewport (browser window size).
+
+```CSS
+.card {
+  width: 100vw;
+}
+```
+
+<b>Note</b>
+The width `100vw` sets an HTML element to the entire width of the Viewport (browser window size).
