@@ -7,8 +7,11 @@
 .main-heading {
   color: blue;
   font-family: "Roboto";
+  font-size: 36px;
 }
 
 .paragraph {
   color: grey;
+  font-family: "Roboto";
+  font-size: 28px;
 }
