@@ -2,4 +2,5 @@
 
 .card {
   background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
+  background-size: cover;
 }
