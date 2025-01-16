@@ -1,3 +1,9 @@
+- font-family
+- font-size
+- font-style
+- font-weight
+- text-decoration
+
 # Font Family
 
 The CSS font-family property specifies the font for an element.
