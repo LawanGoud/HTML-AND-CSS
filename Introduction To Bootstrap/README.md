@@ -74,3 +74,11 @@ Bootstrap provides us with different types of buttons. One of them is outline bu
 To add the outline buttons in our HTML document, just replace `btn` in the above class names with the `btn-outline`.
 
 To achieve the different outline button styles, Bootstrap has the following class names:
+
+<b>Note</b>
+
+By default, Bootstrap class name `btn` has no background color.
+
+### Text colors
+
+To apply different colors to the text, Bootstrap has the following class names:
