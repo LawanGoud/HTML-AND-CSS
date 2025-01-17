@@ -90,3 +90,49 @@ To apply different cases like upper case, lower case, etc. to the text, Bootstra
 ### Background colors
 
 To apply different background colors to an HTML element, Bootstrap has the following class names:
+
+Bootstrap provides us with many predefined class names. Some of them are:
+
+- card
+- carousel
+- alert
+- alert-success
+- alert-link
+- bg-danger
+- card-body and many more...
+
+<b>Note</b>
+
+Using predefined bootstrap class names as a selector in our CSS Ruleset may give unexpected results.
+
+<b>DO's</b>
+
+```CSS
+.button {
+  border-radius: 5px;
+  height: 50px;
+  width: 138px;
+  background-color: blue;
+  color:white;
+}
+```
+
+```HTML
+<button class="button">Get Started</button>
+```
+
+<b>DON'T's</b>
+
+```CSS
+.btn {
+  border-radius: 5px;
+  height: 50px;
+  width: 138px;
+  background-color: blue;
+  color:white;
+}
+```
+
+```HTML
+<button class="btn">Get Started</button>
+```
