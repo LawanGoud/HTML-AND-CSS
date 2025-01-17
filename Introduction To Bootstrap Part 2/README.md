@@ -64,3 +64,12 @@ The Bootstrap class name `justify-content-center` is used to align the flex item
 | -------------- | ---------------------------------------------- |
 | flex-row       | Align flex items horizontally to the center    |
 | flex-column    | Align flex items vertically to the middle      |
+
+### justify-content-end
+
+The Bootstrap class name `justify-content-end` is used to align the flex items at the end of the Flexbox Container either horizontally or vertically based on the Flex Direction.
+
+| Flex Direction | Alignment of flex items in a Flexbox Container |
+| -------------- | ---------------------------------------------- |
+| flex-row       | Align flex items horizontally to the center    |
+| flex-column    | Align flex items vertically to the middle      |
