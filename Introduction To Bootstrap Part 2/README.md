@@ -42,3 +42,16 @@ The Bootstrap class name `flex-column` is used to move the flex items vertically
 <b>Note</b>
 
 The Bootstrap class name `flex-row` is the default Flex Direction for the Flexbox Container. So, once `d-flex` is specified, all the flex items in the Flexbox Container display horizontally.
+
+## Justify Content
+
+The Justify Content specifies the alignment of flex items along the Flex Direction in a Flexbox Container.
+
+### justify-content-start
+
+The Bootstrap class name `justify-content-start` is used to align the flex items at the start of the Flexbox Container either horizontally or vertically based on the Flex Direction.
+
+| Flex Direction | Alignment of flex items in a Flexbox Container |
+| -------------- | ---------------------------------------------- |
+| flex-row       | Align flex items horizontally to the left      |
+| flex-column    | Align flex items vertically to the top         |
