@@ -68,3 +68,9 @@ The Bootstrap class name `btn` is used to style the HTML `button` element.
 ```HTML
 <button class="btn">Submit</button>
 ```
+
+Bootstrap provides us with different types of buttons. One of them is outline buttons, which don't have a background color.
+
+To add the outline buttons in our HTML document, just replace `btn` in the above class names with the `btn-outline`.
+
+To achieve the different outline button styles, Bootstrap has the following class names:
