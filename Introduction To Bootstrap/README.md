@@ -82,3 +82,7 @@ By default, Bootstrap class name `btn` has no background color.
 ### Text colors
 
 To apply different colors to the text, Bootstrap has the following class names:
+
+### Text Transform
+
+To apply different cases like upper case, lower case, etc. to the text, Bootstrap has the following class names:
