@@ -1,3 +1,13 @@
+- Reusability of CSS Rulesets
+- Multiple class names as an HTML attribute value
+- Bootstrap
+  - How to use Bootstrap?
+  - Predefined Styles in Bootstrap
+    - Button
+    - Text colors
+    - Text Transform
+    - Background colors
+
 # Reusability of CSS Rulesets
 
 If we want the same style for multiple HTML elements, we can write the CSS Ruleset once and use it for different HTML elements.
