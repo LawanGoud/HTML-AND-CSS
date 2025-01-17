@@ -73,3 +73,60 @@ The Bootstrap class name `justify-content-end` is used to align the flex items a
 | -------------- | ---------------------------------------------- |
 | flex-row       | Align flex items horizontally to the center    |
 | flex-column    | Align flex items vertically to the middle      |
+
+### justify-content-between
+
+The Bootstrap class name `justify-content-between` is used to provide equal space between the flex items within the Flexbox Container, aligning them either horizontally or vertically based on the Flex Direction.
+
+| Flex Direction | Alignment of flex items in a Flexbox Container |
+| -------------- | ---------------------------------------------- |
+| flex-row       | Align flex items horizontally to the center    |
+| flex-column    | Align flex items vertically to the middle      |
+
+```HTML
+<div class="d-flex flex-column justify-content-between">
+  <div>
+    <h1>Tourism</h1>
+    <p>Plan your trip.</p>
+    <button>Get Started</button>
+  </div>
+</div>
+```
+
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="d-flex flex-column justify-content-between box-container">
+      <div class="box box-orange"><p>Box 1</p></div>
+      <div class="box box-green"><p>Box 2</p></div>
+    </div>
+  </body>
+</html>
+```
+
+```CSS
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.box{
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+.box-orange{
+  background-color: orange;
+}
+.box-green{
+  background-color: green;
+}
+.box-container{
+  width: 100vw;
+  height: 100vh;
+}
+```
