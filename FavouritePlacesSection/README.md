@@ -86,3 +86,15 @@ You can use the below CSS properties to apply a margin on the specific side of a
 | margin-right  |
 | margin-bottom |
 | margin-left   |
+
+Step by Step Process of achieving the Favourite Places Section:
+Step1:
+
+- Adding a Background Container
+- Adding a Favourite Places Section Heading
+- Adding Padding to the Favourite Places Section Heading
+- Adding a Favourite Place Card
+- Adding a Favourite Place Card Container
+- Adding a Favourite Place Card Heading
+- Adding a Favourite Place Card Description
+- Adding padding to the Favourite Place Card
