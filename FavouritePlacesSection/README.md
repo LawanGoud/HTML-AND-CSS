@@ -55,3 +55,34 @@ We can provide multiple HTML Attributes to the HTML `img` element. The HTML `src
   height: 100px;
 }
 ```
+
+# Void Elements
+
+The HTML elements that only have a start tag and do not contain content or end tag are called as Void Elements.
+
+`Syntax: <tag />`
+
+For example, the HTML `img` element.
+
+<img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tajmahal-img.png"/>
+
+# CSS Box Model Properties
+
+## Margin
+
+The CSS `margin` property specifies the space around the four sides of an HTML element.
+
+```CSS
+.card-container {
+  margin: 10px;
+}
+```
+
+You can use the below CSS properties to apply a margin on the specific side of an HTML element,
+
+| Property      |
+| ------------- |
+| margin-top    |
+| margin-right  |
+| margin-bottom |
+| margin-left   |
