@@ -56,3 +56,22 @@ Paste this video ID after the `embed/` and before the `?rel=0` in the value of t
 <b>Note</b>
 
 Be careful while pasting the video ID. The video ID must be in between the `https://www.youtube.com/embed/` and `?rel=0`. You won't get the video if any character is missed in the value of the HTML `src` attribute.
+
+# Step by Step Process to develop a Favourite Place Detailed View Section Page
+
+Step-1:
+
+- Add the Background Image and Heading
+
+Step-2:
+
+- Add a Detailed View Card
+- Add a Detailed View Card Container
+- Add the Bootstrap Carousel Code
+- Add the HTML src attributes for the HTML img element in the Carousel
+- Add a Detailed View Card Text Container
+- Add a Detailed View Card Heading
+- Add a Detailed View Card Description
+- Add the padding to the Card Text Container
+- Add the margin to the Card Container
+- Follow the same steps and replace the Bootstrap Carousel Code with the Bootstrap Youtube Embed Code to add Youtube Video to the Favourite Place Detailed View Section Page.
