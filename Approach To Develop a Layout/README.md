@@ -69,3 +69,42 @@ Follow the steps to develop a top Section of the Diwali Page
 - Specify the size of the text
 - Specify the width of the text (heading box)
 - Specify the padding of the text (heading box)
+
+## Bottom Section
+
+Follow the steps to develop a Bottom Section of the Diwali Page
+
+`Step-1: Adding a Bottom Section Container`
+
+- Add the background color
+- Specify the padding to the Bottom Section Container
+
+`Step-2: Adding the card item`
+
+- Add the background color
+- Add the image
+  - Specify the width and height of the image
+- Add the name of the card item
+  - Specify the color of the text
+  - Specify the size of the text
+- Add the price of the card item
+  - Specify the color of the text
+  - Specify the size of the text
+  - Specify the font weight of the text
+- Specify padding to the card item
+- Specify the text alignment of the card item
+
+`Step-3: Aligning the card items`
+
+- Specify margin to the card items
+- Align the pair of two cards side by side using Flexbox properties
+  - Wrap two cards with the HTML container element
+  - Define it as a Flexbox Container
+  - Specify the Flex Direction to it
+  - Specify the Justify Content to it
+
+`Step-4: Adding the button`
+
+- Add the button
+- Add the button bootstrap class names to it
+- Specify the text alignment of the Bottom Section Container

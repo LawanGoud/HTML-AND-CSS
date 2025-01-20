@@ -2,7 +2,7 @@
 
 .diwali-top-section {
   background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
-  height: 30vh;
+  height: 40vh;
   background-size: cover;
 }
 
@@ -12,4 +12,38 @@
   font-size: 36px;
   width: 200px;
   padding: 20px;
+}
+
+.diwali-bottom-section {
+  text-align: center;
+  background-color: #e6f6ff;
+  padding: 15px;
+}
+
+.diwali-card-item {
+  text-align: center;
+  background-color: white;
+  width: 140px;
+  border-radius: 9px;
+  padding: 16px;
+  margin: 15px;
+}
+
+.diwali-card-image {
+  height: 64px;
+  width: 64px;
+}
+
+.diwali-card-name {
+  color: #616e7c;
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.diwali-card-price {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
 }
