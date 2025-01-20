@@ -41,3 +41,31 @@ For example, let's take an HTML button element.
   margin: 15px;
 }
 ```
+
+# Step by Step Process to develop a Diwali Page
+
+Let's divide the Diwali Page into two Sections.
+
+1. Top Section
+2. Bottom Section
+
+Go through the previous Cheat Sheets and use the suitable CSS Property and Value pairs
+
+## Top Section
+
+Follow the steps to develop a top Section of the Diwali Page
+
+`Step-1: Adding a background image to the Top Section`
+
+- Add the background image
+- Specify the height of the background image
+- Specify the background size to the image and whether to occupy up to the specified width and height or not
+
+`Step-2: Adding a Top Section heading`
+
+- Add the Top Section heading
+- Specify the color of the text
+- Specify the font family of the text
+- Specify the size of the text
+- Specify the width of the text (heading box)
+- Specify the padding of the text (heading box)
