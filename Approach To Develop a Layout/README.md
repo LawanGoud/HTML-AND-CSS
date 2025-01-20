@@ -108,3 +108,26 @@ Follow the steps to develop a Bottom Section of the Diwali Page
 - Add the button
 - Add the button bootstrap class names to it
 - Specify the text alignment of the Bottom Section Container
+
+# Resources used to develop a Diwali Page
+
+URL of background image:
+
+- https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png
+
+- URLs of card item images:
+
+- https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png
+- https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png
+- https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png
+- https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png
+
+Colors and Background colors:
+
+- white
+
+Hex code color values:
+
+- #e6f6ff
+- #616e7c
+- #323f4b
