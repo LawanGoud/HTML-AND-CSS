@@ -178,3 +178,5 @@ To display the Favourite Places Section when we are in the Detailed View Section
 # Detailed View Section
 
 ## Golden Temple Detailed View Section
+
+## Mysore Palace Detailed View Section
