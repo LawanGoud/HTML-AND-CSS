@@ -111,3 +111,47 @@ To occupy the background image to the entire content in the above output, remove
 The background image takes the height of the content of an HTML element if you don't specify the height to it.
 
 ## Detailed View Section
+
+# HTML Attributes
+
+## The HTML id Attribute
+
+The HTML `id` attribute specifies a unique id for an HTML element. The value of the `id` attribute must be unique within the HTML document.
+
+```HTML
+<div id="section1">Section 1</div>
+```
+
+<b>Warning</b>
+
+The CCBP UI kit works only if the value of the HTML `id` attribute of the container section has the prefix as `section`.
+
+So, the id which we specify for any section should always contain its prefix as `section` if you are using CCBP UI Kit.
+
+## The HTML onclick Attribute
+
+The `onclick` event occurs when the user clicks on an HTML Element.
+
+```HTML
+<button class="btn btn-primary" onclick="display('section3')">
+  Go to Section 3
+</button>
+```
+
+The value of an HTML `onclick` attribute should be enclosed in double-quotes and the value inside the brackets of `display()` should be enclosed in single quotes.
+
+# Website Integration
+
+## Integration of Home and Favourite Places Sections
+
+To display Favourite Places Section when we are in the Home Section:
+
+`Step-1`: Change ids of Section Containers. All the ids must start with `section`
+`Step-2`: Add HTML code of Home Section and corresponding CSS styles to Display Utility
+`Step-3`: Add HTML code of Favourite Places Section and corresponding CSS styles to Display Utility
+`Step-4`: Add an HTML `onclick` attribute to the HTML `button` element in the Home Section
+
+To display the Home Section when we are in the Favourite Places Section:
+
+`Step-5`: Add an HTML `button` element in Favourite places Section
+`Step-6`: Add an HTML `onclick` attribute to it
