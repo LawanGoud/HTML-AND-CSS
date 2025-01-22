@@ -188,3 +188,20 @@ To display the Favourite Places Section when we are in the Detailed View Section
 The ids of the Carousels are changed in the above Detailed View Sections code.
 
 The ids used in the above code are unique throughout the HTML document.
+
+# Website Integration
+
+## Integration of Favourite Places and Detailed View Sections
+
+To display the Detailed View Section when we click on the <b>Golden Temple Card</b> in the Favourite Places Section:
+
+`Step-1`: Add the Section Container with the unique id
+`Step-2`: Add HTML Code of Golden Temple Detailed View Section
+`Step-3`: Add an HTML `onclick` attribute to the Golden Temple Card in the Favourite Places Section
+
+To display the Favourite Places Section when we are in the Detailed View Section:
+
+`Step-4`: Add an HTML `button` element in the Detailed View Section
+`Step-5`: Add an HTML `onclick` attribute to the HTML `button` element
+
+Try out adding the Mysore Palace and Varanasi Temple Detailed View Sections and integrate them similar to the Golden Temple and TajMahal Detailed View Sections in the below Code Playground.
