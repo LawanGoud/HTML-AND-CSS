@@ -205,3 +205,61 @@ To display the Favourite Places Section when we are in the Detailed View Section
 `Step-5`: Add an HTML `onclick` attribute to the HTML `button` element
 
 Try out adding the Mysore Palace and Varanasi Temple Detailed View Sections and integrate them similar to the Golden Temple and TajMahal Detailed View Sections in the below Code Playground.
+
+<b>Note</b>
+
+To use multiple Carousels in the same HTML document, we have to provide a unique id to each Carousel.
+
+So while adding a new Carousel, you need to change the id of the Carousel. Else, the Carousel controls don’t work.
+
+# HTML Lists
+
+The List is a way to group related pieces of information so that they are easy to read and understand.
+
+For example, Shopping list, Todo list, etc.
+
+There are mainly two types of Lists available in HTML.
+
+- Unordered List
+- Ordered List
+
+## Unordered List
+
+It is a collection of related items that have no special order or sequence.
+
+For example, List of Hobbies
+
+- Painting
+- Reading Books
+- Playing the Guitar
+
+The Unordered List starts with <ul> tag. It wraps around all the list items and each list item starts with the <li> tag.
+
+```HTML
+<ul>
+  <li>Painting</li>
+  <li>Reading Books</li>
+  <li>Playing the Guitar</li>
+</ul>
+```
+
+By default, list items in the Unordered List are marked with bullets.
+
+### Styling Unordered List
+
+The CSS `list-style-type` property is used to style the List.
+
+```CSS
+.unordered-square-list {
+  list-style-type: square;
+}
+```
+
+You can use one of the below values of the CSS `list-style-type` property to style the Unordered List.
+
+| Value  |
+| ------ |
+| square |
+| circle |
+| disc   |
+| none   |
