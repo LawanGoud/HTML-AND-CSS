@@ -263,3 +263,46 @@ You can use one of the below values of the CSS `list-style-type` property to sty
 | circle |
 | disc   |
 | none   |
+
+## Ordered List
+
+It is a collection of related items that follow some order or have a sequence.
+
+For example, Web Technologies
+
+1. HTML
+2. CSS
+3. JavaScript
+
+The Ordered List starts with <ol> tag. It wraps around all the list items and each list item starts with the <li> tag.
+
+```HTML
+<ol>
+  <li>Go through the HTML elements and CSS properties</li>
+  <li>Complete the Todolist Coding Practice</li>
+  <li>Go through the Bootstrap Concepts</li>
+  <li>Read the Bootstrap cheat sheet</li>
+  <li>Build a Tourism Website</li>
+</ol>
+```
+
+### Styling Ordered List
+
+The CSS `list-style-type` property is used to style the List.
+
+```CSS
+.ordered-lower-roman-list {
+  list-style-type: lower-roman;
+}
+```
+
+You can use one of the below values of the CSS list-style-type property to style the Ordered List.
+
+| Value       |
+| ----------- |
+| upper-alpha |
+| lower-alpha |
+| upper-roman |
+| lower-roman |
+| decimal     |
+| none        |
