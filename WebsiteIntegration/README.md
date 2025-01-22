@@ -103,3 +103,11 @@ It is a reusable code snippet to display or hide Section Containers based on use
 ## Home Section
 
 ## Favourite Places Section
+
+<b>Note</b>
+
+To occupy the background image to the entire content in the above output, remove the height specified to the `favourite-places-bg-container`.
+
+The background image takes the height of the content of an HTML element if you don't specify the height to it.
+
+## Detailed View Section
