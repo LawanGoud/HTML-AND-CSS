@@ -172,3 +172,9 @@ To display the Favourite Places Section when we are in the Detailed View Section
 
 `Step-4`: Add an HTML button element in the Detailed View Section
 `Step-5`: Add an HTML onclick attribute to the HTML button element
+
+---
+
+# Detailed View Section
+
+## Golden Temple Detailed View Section
