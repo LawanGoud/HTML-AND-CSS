@@ -101,3 +101,5 @@ It is a reusable code snippet to display or hide Section Containers based on use
 # Sections in Tourism Website
 
 ## Home Section
+
+## Favourite Places Section
