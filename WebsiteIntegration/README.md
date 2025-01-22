@@ -180,3 +180,11 @@ To display the Favourite Places Section when we are in the Detailed View Section
 ## Golden Temple Detailed View Section
 
 ## Mysore Palace Detailed View Section
+
+## Varanasi Temple Detailed View Section
+
+<b>Note</b>
+
+The ids of the Carousels are changed in the above Detailed View Sections code.
+
+The ids used in the above code are unique throughout the HTML document.
