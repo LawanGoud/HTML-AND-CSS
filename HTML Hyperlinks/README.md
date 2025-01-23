@@ -34,3 +34,35 @@ While navigating to a particular section within the same HTML document, the cont
 - The content of that section and the content of the sections after it has less content to fill the Viewport height.
 
 # HTML Image Element as Link
+
+# Most commonly used HTML Void Elements
+
+## HTML Line Break Element
+
+The HTML `br` element helps to break the text and continue it in the next line.
+
+```HTML
+<h1 class="heading">Twinkle Twinkle Little Star</h1>
+<p>
+  Twinkle, twinkle, little star, <br />
+  How I wonder what you are! <br />
+  Up above the world so high, <br />
+  Like a diamond in the sky.
+</p>
+```
+
+## HTML Horizontal Rule Element
+
+The HTML `hr` element inserts a horizontal line and helps to separate the content.
+
+```HTML
+<h1 class="heading">Twinkle Twinkle Little Star</h1>
+<hr />
+<p>
+  Twinkle, twinkle, little star, <br />
+  How I wonder what you are! <br />
+  Up above the world so high, <br />
+  Like a diamond in the sky.
+</p>
+<hr />
+```
