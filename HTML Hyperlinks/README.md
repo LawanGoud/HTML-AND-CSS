@@ -32,3 +32,5 @@ While navigating to a particular section within the same HTML document, the cont
 
 - It has less content to fill the Viewport height and there are no sections after it.
 - The content of that section and the content of the sections after it has less content to fill the Viewport height.
+
+# HTML Image Element as Link
