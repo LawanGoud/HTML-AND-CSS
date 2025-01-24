@@ -84,3 +84,9 @@
   width: 40vw;
   margin-bottom: 3px;
 }
+
+.related-music-name {
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 15px;
+}

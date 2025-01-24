@@ -104,3 +104,11 @@
   font-family: "Bree Serif";
   font-size: 12px;
 }
+
+.book-description {
+  text-align: left;
+  color: #e4e7eb;
+  font-family: "Bree Serif";
+  font-size: 12px;
+  margin-top: 10px;
+}
