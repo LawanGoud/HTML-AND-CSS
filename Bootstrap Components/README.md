@@ -144,3 +144,13 @@ Apart from the numbers 0-5, the margin also has the below Bootstrap class names.
 - m-auto
 - ml-auto
 - mr-auto
+
+# Step by Step Process to build a Navbar
+
+`Step-1`: Adding Bootstrap Navbar Component
+
+`Step-2`: Adding Logo
+
+`Step-3`: Aligning Nav Items
+
+`Step-4`: Changing Navbar Background color
