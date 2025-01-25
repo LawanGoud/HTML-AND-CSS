@@ -47,3 +47,7 @@ We can specify the number of columns our content should occupy in any device. Th
 If Bootstrap class name is `col-12`, it occupies the entire width available inside the row.
 
 The Bootstrap class names `col-*` indicates the number of columns you would like to use out of the possible 12 columns per row. For example, `col-1`, `col-5`, etc.
+
+# Creating Multiple Column Layouts
+
+The Layout in the below Code Playground is a Two Column Layout. Similarly try out multiple column layouts like One Column Layout, Three Column Layout, etc. in the below Code Playground.
