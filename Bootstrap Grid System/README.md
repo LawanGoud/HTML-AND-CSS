@@ -119,5 +119,17 @@ The spacer is a variable and has a value of 16 pixels by default.
 
 For example,
 
-p-1 = 0.25 _ 16px = 4px
-pt-4 = 1.5 _ 16px = 24px
+- p-1 = 0.25 \_ 16px = 4px
+- spt-4 = 1.5 \_ 16px = 24px
+
+## Bootstrap background Color Utilities
+
+You can use one of the below Bootstrap class names to apply a background color to an HTML element.
+
+<b>Note</b>
+
+In the above Code Playground, we used the bootstrap class name p-2 for padding.
+
+## Developing Layouts for five Responsive Breakpoints
+
+### Color Palette
