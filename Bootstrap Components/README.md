@@ -134,3 +134,13 @@ The child element will be horizontally centred inside the HTML container element
   margin-left: auto;
 }
 ```
+
+# Bootstrap Utilities
+
+## Margin
+
+Apart from the numbers 0-5, the margin also has the below Bootstrap class names.
+
+- m-auto
+- ml-auto
+- mr-auto
