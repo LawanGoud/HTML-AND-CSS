@@ -73,3 +73,64 @@ For example, the HTML button element, img element, a element, etc.
   is one of the seven wonders of the world.
 </p>
 ```
+
+# CSS Box Properties
+
+## Margin
+
+We can align HTML Block-level elements horizontally using CSS `margin` property.
+
+Apart from values that are specified in pixels, it also accepts `auto` keyword as a value.
+
+<b>Note</b>
+
+If we specify the CSS `text-align` property to the HTML Block-level element, it aligns the text or HTML Inline elements inside it.
+
+### Auto Value
+
+The child element will be horizontally centred inside the HTML container element.
+
+```HTML
+<div class="navbar-nav nav-items-center">
+  <a class="nav-link active" href="#">
+    Home
+    <span class="sr-only">(current)</span>
+  </a>
+  <a class="nav-link" href="#">About Me</a>
+  <a class="nav-link" href="#">Projects</a>
+  <a class="nav-link" href="#">Testimonials</a>
+</div>
+```
+
+```CSS
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.nav-items-center {
+  margin: auto;
+}
+```
+
+### Auto Value with Margin Variants
+
+- Using auto as a value for the CSS margin-right property takes up all the available space, and the element gets aligned to the left.
+
+- Using auto as a value for the CSS margin-left property takes up all the available space, and the element gets aligned to the right.
+
+```HTML
+<div class="navbar-nav nav-items-right">
+  <a class="nav-link active" href="#">
+    Home <span class="sr-only">(current)</span>
+  </a>
+  <a class="nav-link" href="#">About Me</a>
+  <a class="nav-link" href="#">Projects</a>
+  <a class="nav-link" href="#">Testimonials</a>
+</div>
+```
+
+```CSS
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.nav-items-right {
+  margin-left: auto;
+}
+```
