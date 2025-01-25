@@ -42,3 +42,18 @@ We can use a combination of different Bootstrap class names for each Bootstrap G
 Bootstrap follows Mobile First Approach.
 
 First, design the Layout of a mobile version, and this will be adopted by devices with larger sizes.
+
+# Bootstrap Grid System - 2
+
+## CSS Box Properties
+
+### Margin
+
+We can get spacing between the two HTML elements with the CSS Box property margin.
+
+To get space only on one particular side, we use Margin Variants.
+
+- margin-top
+- margin-right
+- margin-bottom
+- margin-left
