@@ -1,0 +1,44 @@
+# Bootstrap Grid System
+
+## Column Wrapping
+
+When we place more than 12 grid columns in a single row, the extra grid columns will wrap in a new line.
+
+Try out the different combinations of Bootstrap class names like `col-4`, `col-4`, `col-6`, `col-6` and `col-6`, `col-4`, `col-6`, `col-4`, etc. in the below Code Playground.
+
+## The Layout at different Breakpoints
+
+Bootstrap provides different Bootstrap Grid Column class name prefixes for Five Responsive Tiers (Responsive Breakpoints).
+
+| Device                  | Device Size (Width) | Class Name Prefix |
+| ----------------------- | ------------------- | ----------------- |
+| Extra Small             | 0-576px             | `col-`            |
+| Small                   | 576-768px           | `col-sm-`         |
+| Medium                  | 768-992px           | `col-md-`         |
+| Large                   | 992-1200px          | `col-lg-`         |
+| Extra Large             | 1200px and up       | `col-xl-`         |
+| Extra Extra Large       | 1400px and up       | `col-xxl-`        |
+| Extra Extra Extra Large | 1600px and up       | `col-xxxl-`       |
+
+If we define the behaviour of the Bootstrap Grid Column in a particular device, similar behaviour is guaranteed in all devices with larger sizes.
+
+```HTML
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <h1 class="heading">Taj Mahal</h1>
+      <p>The Taj Mahal is on the southern bank of the river Yamuna.</p>
+    </div>
+  </div>
+</div>
+```
+
+### Class names in combination
+
+We can use a combination of different Bootstrap class names for each Bootstrap Grid Column.
+
+<b>Note</b>
+
+Bootstrap follows Mobile First Approach.
+
+First, design the Layout of a mobile version, and this will be adopted by devices with larger sizes.
