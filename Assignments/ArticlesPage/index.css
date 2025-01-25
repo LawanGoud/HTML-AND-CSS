@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.articles-page-container {
+  background-color: #225db0;
+  height: 100vh;
+  padding: 30px;
+}
+
+.articles-page-name {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.articles-page-description {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.articles-page-card {
+  background-color: #ffffff;
+  height: 120px;
+  width: 200px;
+  min-height: 120px;
+  min-width: 200px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.articles-technology {
+  height: 40px;
+}
+
+.articles-page-card-title {
+  font-size: 14px;
+  font-family: "Roboto";
+  padding: 10px;
+  font-weight: 600;
+}
+
+.technology-page-container {
+  background-color: #225db0;
+  padding: 30px;
+}
+
+.technology-page-title {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 32px;
+  padding: 20px 0px;
+}
+
+li {
+  color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+  padding: 8px;
+}
+
+.button {
+  background-color: #225db0;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  width: 100px;
+}
