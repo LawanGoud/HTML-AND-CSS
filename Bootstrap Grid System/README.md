@@ -57,3 +57,67 @@ To get space only on one particular side, we use Margin Variants.
 - margin-right
 - margin-bottom
 - margin-left
+
+## Bootstrap Spacing Utilities
+
+### Margin
+
+| CSS Margin Property | Bootstrap class name |
+| ------------------- | -------------------- |
+| margin-top          | `mt-*`               |
+| margin-right        | `mr-*`               |
+| margin-bottom       | `mb-*`               |
+| margin-left         | `ml-*`               |
+
+The asterisk (\*) symbol can be any number in the range of 0 to 5. For example, m-5, mr-2, mb-3, etc.
+
+#### Margin Values
+
+| Size | Value   |
+| ---- | ------- |
+| 0    | 0       |
+| 1    | 0.25rem |
+| 2    | 0.5rem  |
+| 3    | 1rem    |
+| 4    | 1.5rem  |
+| 5    | 3rem    |
+
+The spacer is a variable and has a value of 16 pixels by default.
+
+For example,
+
+- mb-3 = 1 \* 16px = 16px
+- m-5 = 3 \* 16px = 48px
+
+<b>Note</b>
+
+Avoid using CSS `margin-left` and `margin-right` properties for Bootstrap Grid Columns. It disturbs the Bootstrap Grid System and gives unexpected results.
+
+### Padding
+
+| CSS Padding property | Bootstrap class name |
+| -------------------- | -------------------- |
+| padding-top          | `pt-*`               |
+| padding-right        | `pr-*`               |
+| padding-bottom       | `pb-*`               |
+| padding-left         | `pl-*`               |
+
+The asterisk (\*) symbol can be any number in the range of 0 to 5. For example, `p-3`, `pr-1`, `pb-5`, etc.
+
+#### Padding Values
+
+| Size | Value   |
+| ---- | ------- |
+| 0    | 0       |
+| 1    | 0.25rem |
+| 2    | 0.5rem  |
+| 3    | 1rem    |
+| 4    | 1.5rem  |
+| 5    | 3rem    |
+
+The spacer is a variable and has a value of 16 pixels by default.
+
+For example,
+
+p-1 = 0.25 _ 16px = 4px
+pt-4 = 1.5 _ 16px = 24px
