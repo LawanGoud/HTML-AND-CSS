@@ -69,3 +69,100 @@ p {
 ```
 
 Here, the CSS Type selector is `p`. So, it selects all the HTML elements that have a tag name p.
+
+# Most fundamental concepts of CSS
+
+In CSS, the styles that are applied to HTML elements depend on three fundamental concepts.
+
+- Inheritance
+- Specificity
+- Cascade
+
+## CSS Inheritance
+
+The mechanism through which the value of certain CSS properties is passed on from parent elements to child elements is called Inheritance.
+
+### Parent Element
+
+If the HTML elements are placed inside the other HTML element, then the outer HTML element is called the parent element of the HTML elements inside it.
+
+```HTML
+<div>
+  <h1>The seven wonders of the world</h1>
+  <p>
+    The <a href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal</a>
+    is one of the seven wonders of the world.
+  </p>
+</div>
+```
+
+From the above Code Snippet, we can say:
+
+The HTML `div` element is the parent element of the HTML `h1` and `p` elements.
+The HTML `p` element is the parent element of the HTML `a` element.
+
+### Child Element
+
+An HTML element that is directly inside the parent element is called the child element of that parent element.
+
+```HTML
+<div>
+  <h1>The seven wonders of the world</h1>
+  <p>
+    The <a href="https://en.wikipedia.org/wiki/Taj_Mahal">Taj Mahal</a>
+    is one of the seven wonders of the world.
+  </p>
+</div>
+```
+
+From the above Code Snippet, we can say:
+
+1. The HTML `h1` and `p` elements are the child elements of the HTML div element.
+
+2. The HTML `a` element is the child element of the HTML `p` element.
+
+CSS properties can be categorized into two types:
+
+- Inherited properties
+- Non-inherited properties
+
+### Inherited Properties
+
+If the CSS properties applied to the parent element are inherited by the child elements, then they are called Inherited properties.
+
+Some of the CSS Inherited Properties are:-
+
+Text related Properties
+
+- font-family
+- font-style
+- font-weight
+- text-align
+
+List related Properties
+
+- list-style-type
+- color property and many more.
+
+### Non-inherited Properties
+
+If the CSS properties applied to the parent element are not inherited by the child elements, then they are called Non-inherited properties.
+
+Some of the CSS Non-inherited properties are:
+
+- CSS Box Properties
+
+  - width
+  - height
+  - margin
+  - padding
+  - border-style
+  - border-width
+  - border-color
+  - border-radius
+
+- CSS Background Properties
+  - background-image
+  - background-color
+  - background-size
+- text-decorationand many more.
