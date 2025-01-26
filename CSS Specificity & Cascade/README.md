@@ -68,6 +68,6 @@ The only way to override a `!important` property value is to include another !im
 
 <b>Note</b>
 
-Always look for a way to use specificity before even considering !important.
+Always look for a way to use specificity before even considering `!important`.
 
-Only use !important when you want to override foreign CSS (from external libraries, like Bootstrap).
+Only use `!important` when you want to override foreign CSS (from external libraries, like Bootstrap).
