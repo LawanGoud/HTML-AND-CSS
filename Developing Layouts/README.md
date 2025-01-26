@@ -67,3 +67,59 @@ For example, to set a transparent background color,
 This allows you to set the background color of the HTML element to transparent so that any background HTML element will show through.
 
 Bootstrap also provides you with a class name `bg-transparent` to set the background color to transparent.
+
+# Why Choose Us? Section
+
+## Bootstrap Spacing Utilities
+
+### Padding
+
+| CSS Padding property | Bootstrap class name |
+| -------------------- | -------------------- |
+| padding              | p-\*                 |
+| padding-top          | pt-\*                |
+| padding-right        | pr-\*                |
+| padding-bottom       | pb-\*                |
+| padding-left         | pl-\*                |
+
+The asterisk (\*) symbol can be any number in the range of 0 to 5. For example, `p-3`, `pr-1`, `pb-5`, etc.
+
+#### Padding Values
+
+| Size | Value   |
+| ---- | ------- |
+| 0    | 0       |
+| 1    | 0.25rem |
+| 2    | 0.5rem  |
+| 3    | 1rem    |
+| 4    | 1.5rem  |
+| 5    | 3rem    |
+
+The spacer is a variable and has a value of 16 pixels by default.
+
+For example,
+
+p-1 = 0.25 _ 16px = 4px
+pt-4 = 1.5 _ 16px = 24px
+
+### HTML Elements
+
+#### HTML Span Element
+
+The HTML `span` element is a generic inline container element which is mainly used for styling text in HTML Elements.
+
+```HTML
+<p class="wcu-card-description">
+  Food Coupons & Offers upto
+  <span class="offers">50% OFF</span>
+  and Exclusive Promo Codes on All Online Food Orders.
+</p>
+```
+
+```CSS
+.offers {
+  color: #323f4b;
+  font-style: italic;
+  font-weight: 600;
+}
+```
