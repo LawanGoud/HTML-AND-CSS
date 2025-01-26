@@ -20,9 +20,25 @@ It doesn't overwrite the entire CSS Ruleset but only overwrites the CSS properti
 
 An ID Selector is more specific when compared to a Class Selector as we provide a unique ID within the HTML document and it selects only a single HTML Element.
 
-    <h1>Heading 1</h1>
-    <h1>Heading 2</h1>
-    <h1 class="heading">Heading 3</h1>
-    <h1 class="heading">Heading 4</h1>
-    <h1 class="heading">Heading 5</h1>
-    <h1 class="heading" id="heading5">Heading 5</h1>
+# Inline Styles
+
+The Inline styles are applied directly to an HTML element. They use the HTML `style` attribute, with CSS property values defined within it.
+
+**Syntax:**
+
+`<tag style = "property1: value1; property2: value2; ...">Content</tag>`
+
+A HTML `style` attribute value can consist of one or more CSS property values.
+
+<b>Note</b>
+
+Inline Styles have the highest specificity. They overwrite any other styles specified using CSS Selectors.
+
+Using Inline Styles is not recommended because
+
+- Inline Styles are not reusable.
+- Writing HTML and CSS separately increases code readability.
+
+# CSS Cascade
+
+The source order of CSS Rulesets matters. When two CSS Rulesets have equal specificity, the one that comes last in the CSS is applied.
