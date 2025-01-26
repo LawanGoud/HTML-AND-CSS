@@ -42,3 +42,32 @@ Using Inline Styles is not recommended because
 # CSS Cascade
 
 The source order of CSS Rulesets matters. When two CSS Rulesets have equal specificity, the one that comes last in the CSS is applied.
+
+<b>Note</b>
+
+The styles that apply to the HTML Elements are not determined by the order the classes defined in the HTML `class` attribute, but instead the order in which they appear in the CSS.
+
+## The !important exception
+
+It is a special piece of CSS used to make a particular CSS property and value the most specific thing, irrespective of source order and specificity.
+
+```HTML
+<h1 class="style-1">About India</h1>
+```
+
+```CSS
+.style-1 {
+ color: green;
+}
+h1 {
+ color: orange !important;
+}
+```
+
+The only way to override a `!important` property value is to include another !important property value. The added property value should either come later in the order or should be of higher specificity.
+
+<b>Note</b>
+
+Always look for a way to use specificity before even considering !important.
+
+Only use !important when you want to override foreign CSS (from external libraries, like Bootstrap).
