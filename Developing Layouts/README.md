@@ -49,3 +49,21 @@ If we don’t need left and right spacings, we can use the Bootstrap class name 
   </div>
 </div>
 ```
+
+# CSS Colors
+
+## Transparent
+
+The CSS `transparent` keyword represents a fully transparent color. This makes the background behind the colored HTML element completely visible.
+
+For example, to set a transparent background color,
+
+```CSS
+.custom-outline-button {
+  background-color: transparent;
+}
+```
+
+This allows you to set the background color of the HTML element to transparent so that any background HTML element will show through.
+
+Bootstrap also provides you with a class name `bg-transparent` to set the background color to transparent.
