@@ -245,3 +245,7 @@ For example, `d-none`, `d-sm-none`, `d-md-none`, etc.
 ```
 
 Based on the type of HTML element, we can use `d-*-inline` and `d-*-block` class names to show HTML element.
+
+## Sections in Food Munch Website
+
+### Healthy Food Section
