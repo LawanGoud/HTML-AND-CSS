@@ -123,3 +123,11 @@ The HTML `span` element is a generic inline container element which is mainly us
   font-weight: 600;
 }
 ```
+
+# Explore Menu Section
+
+## CSS Units
+
+### Percentage
+
+To define the size of a Child Element relative to its Parent Element, we can use Percentages.
