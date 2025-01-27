@@ -211,3 +211,19 @@ To apply shadows to HTML elements, you can use the below Bootstrap class names.
   </a>
 </div>
 ```
+
+# Healthy Food, Delivery and Payment, Thanking Customers Sections
+
+## Bootstrap Flex Utilities
+
+### Order
+
+The Bootstrap Order class names are used to change the visual order of the flex items that appear inside the Flex Container.
+
+For example, `order-1`, `order-2`, `order-3`, etc.
+
+We can use any number in the range of `0` to `12` for a bootstrap `order` class name.
+
+These class names are responsive. So, you can set the order by breakpoint.
+
+For example, `order-1`, `order-md-2`, `order-lg-3`, etc.
