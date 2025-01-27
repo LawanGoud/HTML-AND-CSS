@@ -227,3 +227,21 @@ We can use any number in the range of `0` to `12` for a bootstrap `order` class 
 These class names are responsive. So, you can set the order by breakpoint.
 
 For example, `order-1`, `order-md-2`, `order-lg-3`, etc.
+
+## Bootstrap Display Utilities
+
+We can hide and show HTML elements responsively for each screen size with the Display utilities.
+
+We can hide HTML Elements using `d-*-none` class names, where \* represents breakpoints (`sm`, `md`, `lg`, `xl`)
+
+For example, `d-none`, `d-sm-none`, `d-md-none`, etc.
+
+```HTML
+<div class="my-container">
+  <p class="box">Box 1</p>
+  <p class="box d-none">Box 2</p>
+  <a href="" class="d-md-none">wikipedia</a>
+</div>
+```
+
+Based on the type of HTML element, we can use `d-*-inline` and `d-*-block` class names to show HTML element.
