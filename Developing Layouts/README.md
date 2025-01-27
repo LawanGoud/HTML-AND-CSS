@@ -251,3 +251,5 @@ Based on the type of HTML element, we can use `d-*-inline` and `d-*-block` class
 ### Healthy Food Section
 
 ### Delivery & Payment Section
+
+### Thanking Customers Section
