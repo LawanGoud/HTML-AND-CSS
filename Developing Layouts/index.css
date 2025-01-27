@@ -1,19 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
-.my-container {
-  border-style: solid;
-  border-width: 3px;
-  border-color: blue;
+.explore-menu-section {
+  background-color: white;
 }
-.box {
-  background-color: lightblue;
-  font-size: 20px;
+.menu-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: 700;
+}
+.menu-item-image {
+  border-radius: 16px;
+}
+.menu-card-title {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 18px;
   font-weight: 500;
-  padding: 20px;
+  margin-top: 24px;
 }
-.width-in-px {
-  width: 300px;
+.menu-item-link {
+  color: #d0b200;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 500;
 }
-.width-in-percent {
-  width: 50%;
+.menu-item-card {
+  border-radius: 16px;
 }
