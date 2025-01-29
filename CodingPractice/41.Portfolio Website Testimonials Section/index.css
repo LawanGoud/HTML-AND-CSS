@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.portfolio-container {
+  background-color: #1f2933;
+  padding: 30px;
+  height: 100vh;
+}
+
+.sub-heading {
+  color: #cced00;
+  font-size: 22px;
+  font-weight: 800;
+  font-family: "Roboto";
+}
+
+.main-heading {
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Roboto";
+  font-size: 38px;
+}
+
+.logo-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+}
+
+.para-description {
+  color: #9aa5b1;
+  font-weight: 500;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+.portfolio-carousel {
+  background-color: #323f4b;
+  padding: 20px;
+  height: 100%;
+}
+
+.name-of-ceo {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
