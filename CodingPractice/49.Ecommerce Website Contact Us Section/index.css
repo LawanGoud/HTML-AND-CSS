@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.contact-us-section {
+  background-color: #f5f7fa;
+}
+
+.contact-us-section-heading {
+  color: #183b56;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.custom-button {
+  color: #ff9f00;
+  background-color: transparent;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  width: 140px;
+  height: 43px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ff9f00;
+}
