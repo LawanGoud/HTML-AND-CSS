@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.portfolio-website {
+  background-color: #0d2436;
+}
+
+.profolio-profile-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 60px;
+}
+
+.profile-name {
+  color: #cced00;
+  font-weight: bold;
+  font-family: "Roboto";
+  font-size: 23px;
+}
+
+.profile-designation {
+  color: #9aa5b1;
+  font-weight: 500;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.icon {
+  font-size: 20px;
+  color: #5a7184;
+}
+
+.footer-section {
+  color: #ffffff;
+  text-align: center;
+  background-color: #001c32;
+  padding: 10px;
+  font-size: 20px;
+}
