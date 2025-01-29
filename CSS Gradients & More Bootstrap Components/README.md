@@ -57,3 +57,27 @@ You don't have to limit yourself to two colors. You may use as many as you like!
   background-image: linear-gradient(red, blue, yellow, orange);
 }
 ```
+
+## Radial Gradient
+
+```HTMl
+<div class="radial-gradient-background"></div>
+```
+
+```CSS
+.radial-gradient-background {
+  height: 100vh;
+  background-image: radial-gradient(#2196f3, #f44336);
+}
+```
+
+### Using more than two colors
+
+You don't have to limit yourself to two colors. You may use as many as you like! By default, colors are evenly spaced along the gradient.
+
+```CSS
+.radial-gradient-background-with-more-colors {
+  height: 100vh;
+  background-image: radial-gradient(red, blue, yellow, orange);
+}
+```
