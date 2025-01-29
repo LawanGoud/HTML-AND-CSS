@@ -58,3 +58,21 @@ The CSS Property border-radius allows you to add circular corners to an HTML ele
   <span class="sr-only">(current)</span>
 </a>
 ```
+
+# Bootstrap Position Utilities
+
+## Fixed Top
+
+The bootstrap class name `fixed-top` positions an HTML element at the top of the viewport irrespective of the scrolling.
+
+```HTML
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">...</nav>
+```
+
+## Fixed Bottom
+
+The bootstrap class name `fixed-bottom` positions an HTML element at the bottom of the viewport irrespective of the scrolling.
+
+```HTML
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-bottom">...</nav>
+```
