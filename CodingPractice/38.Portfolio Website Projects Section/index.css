@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.portfolio-container {
+  background-color: #3e4c59;
+}
+
+.sub-heading {
+  color: #cced00;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.heading {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.web-design-card {
+  background-color: #323f4b;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.website-card {
+  width: 100%;
+}
+
+.website-card-sub-heading {
+  color: #9aa5b1;
+  font-size: 20px;
+  padding: 20px;
+  font-family: "Roboto";
+}
+
+.website-card-heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  padding-left: 20px;
+}
+
+.website-card-desctiption {
+  color: #9aa5b1;
+  font-family: "Roboto";
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.navigation-to-another {
+  color: #cced00;
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 20px;
+}
